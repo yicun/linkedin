@@ -1,6 +1,5 @@
 package me.chyc.linkedin.crawler;
 
-import org.apache.xpath.operations.String;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class LinkedinLoginDemo {
 //以下方法获取登录淘宝成功后的cookie
 
-    public static String click(String username, String password) {
+    public static java.lang.String click(String username, String password) {
 //        WebDriver webDriver = new FirefoxDriver();
         System.setProperty("webdriver.chrome.driver", "/Users/chyc/Workspaces/Mine/linkedin/lib/chromedriver");
         WebDriver webDriver = new ChromeDriver();
